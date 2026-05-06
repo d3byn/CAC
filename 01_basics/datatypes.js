@@ -19,3 +19,26 @@ symbol = uniquness
 console.log(typeof undefined) //undefined
 console.log(typeof "deb"); //string
 console.log(typeof null); //object
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+// console.log(id === anotherId) //false
+
+
+// Reference (Non Primitive) data types
+
+// Array, Objects, Functions, Dates
+
+const heros = ["shaktiman", "naagraj", "doga"]; //array 
+
+let myObj = {
+    name : "deb",
+    age : 20
+} //object
+
+const myFunction = function () {
+    console.log("hello world")
+} //function
+
+console.log(typeof heros) 
