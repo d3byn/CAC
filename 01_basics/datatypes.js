@@ -41,4 +41,30 @@ const myFunction = function () {
     console.log("hello world")
 } //function
 
-console.log(typeof heros) 
+console.log(typeof heros)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (non-primitive)  - memory type
+
+let myYoutubename = "sonutojo"
+
+let anothername = myYoutubename
+anothername = "Deb"
+
+console.log(myYoutubename) //sonutojo
+console.log(anothername) //Deb
+
+
+
+let user1 = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.email = "deb@gmail.com"
+
+console.log(user1)
+console.log(user2)
